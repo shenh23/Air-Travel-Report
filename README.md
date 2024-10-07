@@ -1,9 +1,10 @@
 # Air Travel Report
-Baggage loss or mishandling can always disrupt a perfect travel plan and can lead to an increase in the dissatisfaction rate from clients towards their travel agents. The report will help travel agent understand which factor has the biggest impact on baggage claims, defined as the number of passenger complaints for lost, damaged, or misrouted baggage, for the two main airlines, United Airlines and American Eagle. After reading through the report, they will be able to give wiser advice to their clients regarding their travel plans for the next six months of 2011. The report also gives a 6-month forecast on baggage claims and canceled flights for the two airlines.
+Baggage loss or mishandling can significantly disrupt travel plans and lead to increased client dissatisfaction, often reflecting poorly on travel agents. This report provides a detailed analysis of the **factors that most influence baggage claims**—specifically, the number of passenger complaints related to lost, damaged, or misrouted baggage—for two major airlines, United Airlines and American Eagle.
+By reviewing this report, you will gain valuable insights that enable you to offer more informed advice to your clients for their travel plans over the next six months of 2011. Additionally, the report includes a **6-month forecast for baggage claims and canceled flights** for these two airlines, helping you anticipate potential issues and better serve your clients' needs.
 
 Methodologies used:
 1. Exploratory analysis
-2. ARIMA
+2. SARIMA time series forecasting
 
 Data source:
-The data are available from the U.S. Department of Transportation, “Air Travel Consumer Report,” the Office of Aviation Enforcement and Proceedings, Aviation Consumer Protection Division. The data for baggage complaints and enplaned passengers cover domestic travel only.
+The data used in this report comprises operational records from three airlines, covering the period from 2004 to 2010, with monthly-level details. This data is sourced from the "Air Travel Consumer Report," specifically from the U.S. Department of Transportation's, Office of Aviation Enforcement and Proceedings.
